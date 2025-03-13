@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <title>frankzhanggg logo</title>
+  
+  <!-- 定义渐变 -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3498db" />
+      <stop offset="100%" stop-color="#2980b9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆 -->
+  <circle cx="50" cy="50" r="48" fill="url(#gradient)" opacity="0.9">
+    <animate attributeName="r" values="48;46;48" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- F字母 -->
+  <path d="M35 30 L35 70 M35 30 L60 30 M35 45 L55 45" 
+        stroke="#ecf0f1" 
+        stroke-width="5" 
+        stroke-linecap="round"
+        stroke-dasharray="100"
+        stroke-dashoffset="100">
+    <animate attributeName="stroke-dashoffset" 
+             from="100" to="0" 
+             dur="1.5s" 
+             begin="0.2s"
+             fill="freeze" />
+  </path>
+  
+  <!-- Z字母 -->
+  <path d="M45 35 L65 35 L45 65 L65 65" 
+        stroke="#ecf0f1" 
+        stroke-width="4" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"
+        stroke-dasharray="120"
+        stroke-dashoffset="120">
+    <animate attributeName="stroke-dashoffset" 
+             from="120" to="0" 
+             dur="1.5s" 
+             begin="0.7s"
+             fill="freeze" />
+  </path>
+  
+  <!-- 装饰元素 - 小圆点 -->
+  <circle cx="75" cy="25" r="5" fill="#e74c3c">
+    <animate attributeName="r" values="5;6;5" dur="2s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="75" cy="75" r="4" fill="#f1c40f">
+    <animate attributeName="r" values="4;5;4" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="25" cy="75" r="4.5" fill="#2ecc71">
+    <animate attributeName="r" values="4.5;5.5;4.5" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- 添加名字 -->
+  <text x="50" y="90" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#ecf0f1" opacity="0">
+    frankzhanggg
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1.5s" fill="freeze" />
+  </text>
+</svg> 

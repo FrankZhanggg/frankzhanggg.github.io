@@ -1,4 +1,4 @@
-baseURL: 'http://localhost:1313'
+baseURL: 'https://frankzhanggg.github.io'
 title: frankzhanggg's blog
 theme: ladder
 defaultContentLanguage: 'zh'
