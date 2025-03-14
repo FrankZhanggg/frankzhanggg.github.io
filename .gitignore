@@ -1,5 +1,5 @@
 # Hugo默认输出目录
-# /public/  # 注释掉，因为我们需要将public目录推送到gh-pages分支
+/public/  # 使用GitHub Actions构建和部署，不需要提交public目录
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
